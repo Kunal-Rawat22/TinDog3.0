@@ -1,0 +1,434 @@
+#title
+{
+    background-color: #ff4c68; 
+}
+#features
+{
+    text-align: center;
+    padding: 3% 10%;
+    background-color: #fff;
+}
+#cta
+{
+    background-color: #ff4c68; 
+    text-align: center;
+    padding: 5% 20%;
+    color: #fff;
+}
+#footer
+{
+    text-align: center;
+    padding: 3% 20% 0;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.container-fluid
+{
+    padding: 3% 12% 0;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+/* Navigation Bar */
+/* .top-container
+{
+    position: absolute;
+} */
+.navbar{
+    padding-bottom: 8%;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 2.5rem;
+    font-weight: bold;
+} 
+.nav-item
+{
+    padding: 0 15px;
+}
+.nav-link
+{
+    font-family: 'Montserrat-light', sans-serif;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.main{
+    position: relative;
+}
+/* Download Buttons */
+
+.down-btn
+{
+    margin: 5% 3% 10% 0;
+}
+
+
+/* 1172 */
+
+/* features */ 
+.fl{
+    color: #ef8172;
+    margin-bottom: 5%;
+}
+.fl:hover{
+    color: #ff4c68;
+}
+.pf{
+    color: #8f8f8f;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.cl
+{
+    padding: 7% 5%;
+}
+
+/* testimonails */
+
+#testimonials
+{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+
+}
+.test-img
+{
+    margin: 3% auto;
+    width:25%;
+    border-radius: 100%;
+}
+
+#press
+{
+    background-color: #ed9a8f;
+    text-align: center;
+    padding: 3% 0;
+    color: #fff;
+}
+.press-img
+{
+    width:15%;
+    margin:1% 2% 2%;
+}
+#testimonials-carousel
+{
+    padding-bottom: 3%;
+}
+.carousel-item
+{
+    padding: 7% 20% 1.5%;
+}
+
+/* pricing  */
+
+#pricing
+{
+    padding: 5% 10%;
+    text-align: center;
+}
+.price
+{
+    margin-top:5%;
+}
+.card
+{
+    margin-bottom: 5%;
+}
+.card-body
+{
+    color: #8f8f8f;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.ph
+{
+    margin: 0;
+}
+
+
+/* cta  */
+#cta-h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.down-btn2
+{
+    margin: 5% 3% 1% 0;
+}
+
+/* footer */
+
+.icon
+{
+    margin:0.6%;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+
+/* mobile size */
+@media screen and (max-width:500px) and (min-width:50px)
+{
+    h1
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.7rem;
+        line-height: 1.2;
+        font-weight: 900;
+        color: #fff;
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        font-weight: bold;
+    }
+    .title-img
+    {
+        width:70%;
+        height: 400px;
+        position: relative;
+        filter: brightness(120%);
+        filter: contrast(120%);
+        filter: drop-shadow(10px 10px 10px black);
+    }
+    .title{
+        text-align: center;
+        padding-bottom: 4%;
+    }
+
+    #testimonials-carousel
+    {
+        padding-bottom: 6%;
+    }
+    .cl{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .price
+    {
+        padding: 5% 15%;
+        text-align: center;
+    }
+    .card1{
+        margin-bottom: 4%;
+    }
+    .navbar-brand
+    {
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 1.9rem;
+        font-weight: bold;
+    } 
+    .down-btn2
+    {
+        font-size:11px;
+        padding:4px 6px;
+    }
+    .btn
+    {
+        font-size:14px;
+        padding:8px 12px;
+    }
+    #cta-h3
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 1rem;
+    }
+    /* .fl{
+        height: 10px;
+        width: 10px;
+    } */
+}
+
+
+/* tablet size */
+@media screen and (max-width:991px)and (min-width:501px)
+{
+    h1
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        line-height: 1.2;
+        font-weight: 900;
+        color: #fff;
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: bold;
+    }
+    .title{
+        text-align: center;
+        padding-bottom: 4%;
+    }
+    
+    .title-img
+    {
+        width:45%;
+        height: 80%;
+        /* position: absolute; */
+        z-index: 2;
+        filter: brightness(120%);
+        filter: contrast(120%);
+        filter: drop-shadow(10px 10px 10px black);
+    }
+    .title{
+        text-align: center;
+        padding-bottom: 4%;
+    }
+
+    #testimonials-carousel
+    {
+        padding-bottom: 6%;
+    }
+    .cl{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    #pricing
+    {
+        padding-bottom: 2%;
+    }
+    .price
+    {
+        padding: 2% 10%;
+        text-align: center;
+    }
+    .card1{
+        margin-bottom: 4%;
+    }
+    .navbar{
+        padding-bottom: 6%;
+    }
+    .navbar-brand
+    {
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 2.2rem;
+        font-weight: bold;
+    } 
+    .down-btn
+    {
+        margin-bottom: 6%;
+    }
+    #cta-h3
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 1.2rem;
+    }
+    .down-btn2 {
+        font-size:14px;
+        padding:8px 12px;
+      }
+}
+
+/* laptop size */
+@media screen and (max-width:1172px)and (min-width:992px)
+{
+    h1
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        line-height: 1.5;
+        font-weight: 900;
+        color: #fff;
+    }
+    .title-img
+    {
+        width:45%;
+        height: 115%;
+        transform: rotate(15deg);
+        right: 20%;
+        position: absolute;
+        z-index: 2;
+        filter: brightness(120%);
+        filter: contrast(120%);
+        filter: drop-shadow(10px 10px 10px black);
+    }    
+}
+
+
+/* large screen size */
+@media screen and (min-width:1173px)
+{
+    h1
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.5rem;
+        line-height: 1.5;
+        font-weight: 900;
+        /* font-family: "Poppins", sans-serif;
+        line-height: 1.5;
+        font-size: 3.2rem;
+        font-weight: bolder; */
+        color: #fff;
+    }
+
+    /* title-Img */
+
+    .title-img
+    {
+        filter: brightness(120%);
+        filter: contrast(120%);
+        filter: drop-shadow(10px 10px 10px black);
+        width:50%;
+        height: 115%;
+        transform: rotate(15deg);
+        right: 20%;
+        position: absolute;
+    }
+}
+
+
+
+/* @media (max-width: 768px) {
+    .btn {
+      font-size:11px;
+      padding:4px 6px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .btn {
+      font-size:12px;
+      padding:6px 12px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .btn {
+      font-size:14px;
+      padding:8px 12px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .btn {
+      padding:10px 16px;
+      font-size:18px;
+    }
+  } */
